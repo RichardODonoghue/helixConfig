@@ -76,3 +76,13 @@ name = "css"
 language-servers = [ "vscode-css-language-server", "tailwindcss-ls", "emmet-ls" ]
 formatter = { command = 'prettier', args = ["--parser", "css"] }
 auto-format = true
+
+[[language]]
+name = "csv"
+file-types = ["csv"]
+scope = "source.csv"
+
+[[grammar]]
+name = "csv"
+source.git = "https://github.com/weartist/rainbow-csv-tree-sitter"
+source.rev = "896e6d09b23a1b0d87e45bf97ca34a249f41495c"
