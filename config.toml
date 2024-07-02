@@ -1,4 +1,4 @@
 theme = "monokai_pro"
 
 [editor]
-completion-trigger-len=0
+completion-trigger-len=2
