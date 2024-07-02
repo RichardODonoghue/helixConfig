@@ -15,11 +15,7 @@ In order to have a fully functional configuration, you will need to install the 
 Run the following commands in your terminal (assuming you are running a linux distribution). 
 
 ```
-npm i -g vscode-lanuage-servers-extracted
-npm i -g prettier
-npm i -g emmet-ls 
-npm i -g @tailwindcss/language-server
-npm i -g typescript-language-server typescript
+npm i -g vscode-lanuage-servers-extracted prettier emmet-ls  @tailwindcss/language-server typescript-language-server typescript
 ```
 
 After this, check the health of your Helix setup by running `hx --health`
