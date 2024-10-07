@@ -1,4 +1,4 @@
-#[language-server]
+# [language-server]
 emmet-ls = { command = "emmet-ls", args = [ "--stdio" ]}
 
 [language-server.eslint]
@@ -86,5 +86,3 @@ scope = "source.csv"
 name = "csv"
 source.git = "https://github.com/weartist/rainbow-csv-tree-sitter"
 source.rev = "896e6d09b23a1b0d87e45bf97ca34a249f41495c"
-
-

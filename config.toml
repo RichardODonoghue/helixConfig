@@ -2,6 +2,3 @@ theme = "monokai_pro"
 
 [editor]
 completion-trigger-len=2
-
-[editor.lsp]
-display-inlay-hints = false
