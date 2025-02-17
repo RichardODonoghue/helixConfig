@@ -1,4 +1,23 @@
-theme = "monokai_pro"
+theme = "monokai_transparent"
 
 [editor]
 completion-trigger-len=2
+end-of-line-diagnostics="hint"
+
+[editor.file-picker]
+hidden=false
+
+[editor.auto-save]
+focus-list=true
+
+
+[editor.statusline]
+left=["mode","spinner", "file-name", "read-only-indicator","file-modification-indicator"]
+center=["version-control"]
+
+
+[editor.inline-diagnostics]
+cursor-line="hint"
+
+[keys.normal]
+C-y = ":sh zellij run -c -f -x 10% -y 10% --width 80% --height 80% -- bash ~/.config/helix/yazi-picker.sh open"
