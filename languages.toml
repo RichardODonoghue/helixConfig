@@ -8,7 +8,7 @@ args = ["--stdio"]
 [language-server.eslint.config]
 codeActionsOnSave = { mode = "all", "source.fixAll.eslint" = true }
 format = { enable = true }
-nodePath = ""
+nodePath = "/usr/bin/node"
 quiet = false
 rulesCustomizations = []
 run = "onType"
@@ -18,7 +18,7 @@ problems = { shortenToSingleLine = false }
 
 [language-server.eslint.config.codeAction]
 disableRuleComment = { enable = true, location = "separateLine" }
-showDocumentation = { enable = false }
+showDocumentation = { enable = true }
 
 [language-server.vscode-json-language-server.config]
 json = { validate = { enable = true }, format = { enable = true } }
